@@ -1,0 +1,39 @@
+/* Utilizando el selector universal (apunt a a todos)
+ para realizar el set de CSS*/
+ * {
+    /* se eliminan todos los margin por defecto */
+    margin: 0;
+    /* se eliminan todos los padding por defecto */
+    padding: 0; 
+    /* se elimina el estilo de las listas */
+    list-style-type: none;
+    /* el padding y border se consideran para calcular
+     el tamaño de la caja */
+    box-sizing: border-box;
+    /* se elimina el subrayado de los links <a> */
+    text-decoration: none
+  }
+
+.p{
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-wrap{
+ display: flex;
+ flex-wrap: wrap;
+ padding: 10px;
+ background-color: antiquewhite;
+}
+
+.flex-wrap div{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 5px;
+  font-size: 100px; 
+}
+
